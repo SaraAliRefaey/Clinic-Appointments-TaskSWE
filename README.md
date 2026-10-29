@@ -5,7 +5,7 @@
 |---|---|---|---|---|
 | 20242333 | Mariem Mostafa Ahmed | Use Cases | mariam-usecases | https://github.com/SaraAliRefaey/Clinic-Appointments-TaskSWE/pull/6 |
 | 20242148 | Mariem Mostafa Ahmed | Requirements | Mariem-Mostafa-patch-2 | https://github.com/SaraAliRefaey/Clinic-Appointments-TaskSWE/pull/5 |
-| 20242333 | Mariem Mostafa Ahmed | Class Diagram | https://github.com/SaraAliRefaey/Clinic-Appointments-TaskSWE/tree/mariem-class-diagram | https://github.com/SaraAliRefaey/Clinic-Appointments-TaskSWE/pull/7 |
+| 20242333 | Mariem Mostafa Ahmed | Class Diagram | mariem-class-diagram | https://github.com/SaraAliRefaey/Clinic-Appointments-TaskSWE/pull/7 |
 | 20242148 | Sara Ali Refaey | Sequence Diagram | <branch> | <PR> |
 | 20242333 | Sara Ali Refaey | Implementation | <branch> | <PR> |
 
