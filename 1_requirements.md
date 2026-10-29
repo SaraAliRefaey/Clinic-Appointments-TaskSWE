@@ -1,19 +1,16 @@
 # 1. Requirements (P1)
 
 ## Business Context
-System for managing clinic appointments for Patients and Doctors, with a maximum limit of **N = 3** upcoming appointments per patient.
+Clinic Appointments: patients book appointments with doctors. N = 3 (maximum upcoming appointments per patient).
 
----
+| ID | Requirement | Type | Category |
+|---|---|---|---|
+| R1 | A patient can view the days and times when a doctor is available. | Functional | Availability |
+| R2 | A patient can book an appointment during an available time slot. | Functional | Booking |
+| R3 | A doctor can accept or decline an appointment request. | Functional | Appointment handling |
+| R4 | A patient can have at most N upcoming appointments at any given time. | Functional | Booking rule |
+| R5 | Patient medical data shall be accessible only to authorized staff. | Non-functional | Security |
+| R6 | Available appointment times shall be displayed within 2 seconds. | Non-functional | Performance |
+| R7 | The application shall be usable on mobile phone screens. | Non-functional | Usability |
 
-## Functional Requirements
-- **R1:** The system shall allow a Patient to register and log in securely.
-- **R2:** The system shall allow a Patient to search for available doctors by specialty and book an appointment.
-- **R3:** The system shall allow a Doctor to view their daily appointment schedule.
-- **R4:** The system shall enforce a maximum limit of **N = 3** upcoming appointments per patient at any given time.
-- **R5:** The system shall allow a Patient or Doctor to cancel an existing appointment.
-
----
-
-## Non-Functional Requirements
-- **R6:** The system shall respond to appointment booking requests within 2 seconds under normal operation.
-- **R7:** Patient personal data and medical appointment records shall be securely stored with access restriction.
+**Chosen N = 3.** Upcoming = future appointments with status Pending or Accepted. Declined and past appointments do not count.
